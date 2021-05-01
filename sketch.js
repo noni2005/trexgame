@@ -72,7 +72,7 @@ function draw() {
   //trex.debug = true;
   background("lightblue");
   text("Score: "+ score, 500,50);
-  
+  text("made by Garv",500,40);
   if (gameState===PLAY){
     score = score + Math.round(getFrameRate()/60);
     ground.velocityX = -(6 + 3*score/100);
